@@ -4,6 +4,6 @@ const toString = require('./toString');
 
 describe('toString', () => {
   it('should return 1 as a string of "1"', () => {
-    expect(toString(1)).to.equal("1");
+    expect(toString(1));
   });
 });

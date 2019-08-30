@@ -7,7 +7,7 @@ module.exports = function(config) {
 
     mutator: "javascript",
     packageManager: "npm",
-    reporters: ["html", "clear-text", "progress"],
+    reporters: ["html", "progress"],
     testRunner: "mocha",
     transpilers: [],
     testFramework: "mocha",
